@@ -1,3 +1,5 @@
+Generate a Citibank Portfolio Report and save as a pdf file using the attached documents url sources and report prompt
+
 https://docs.google.com/spreadsheets/d/1x4rvOThgFhgTdpuslqsYfhSoAibVDM3BZOUHlp2RW1s/edit?gid=861982464#gid=861982464
 
 https://www.morningstar.com/etfs/xmex/voo/portfolio
@@ -57,25 +59,25 @@ Context:
 You are operating within Gemini Notebook / NotebookLM with direct access to the attached portfolio source documents (holdings, transactions, asset valuations, and benchmark data). The objective is to produce an institutional-grade, fiduciary review document titled "Citibank Portfolio Analysis" tailored specifically for High-Net-Worth (HNW) private wealth clients.
 
 Task:
-Analyze and synthesize the portfolio data from the attached notebook sources. Write a complete, standalone, production-ready Python script using `ReportLab` (utilizing `Platypus`, `SimpleDocTemplate`, `Paragraph`, `Table`, `TableStyle`, `KeepTogether`, `PageBreak`, and `Spacer`) and `Matplotlib` to compile a fully populated 15 25 page client PDF.
+Analyze and synthesize the portfolio data from the attached notebook sources. Write a complete, standalone, production-ready Python script using `ReportLab` (utilizing `Platypus`, `SimpleDocTemplate`, `Paragraph`, `Table`, `TableStyle`, `KeepTogether`, `PageBreak`, and `Spacer`) and `Matplotlib` to compile a fully populated 15–25 page client PDF.
 
 Programmatically construct the document with the following section-by-section breakdown:
-1. Cover Page & Executive Overview (Pages 1 2):
+1. Cover Page & Executive Overview (Pages 1–2):
    - Formal title ("Citibank Portfolio Analysis"), client/portfolio metadata, total portfolio valuation summary.
    - Executive commentary, macroeconomic review, and strategic portfolio positioning overview.
-2. Asset Allocation & Portfolio Structure (Pages 3 6):
+2. Asset Allocation & Portfolio Structure (Pages 3–6):
    - Detailed allocation breakdowns across Equities, Fixed Income, Alternatives, Cash & Cash Equivalents.
    - High-resolution Matplotlib donut/pie charts illustrating target vs. actual weightings and asset class distributions.
-3. Performance Benchmarking & Historical Returns (Pages 7 11):
+3. Performance Benchmarking & Historical Returns (Pages 7–11):
    - Multi-period performance analysis (YTD, 1-Year, 3-Year, 5-Year annualized returns).
    - Direct comparison against custom blended benchmarks with visual Matplotlib trend and bar charts.
-4. Risk, Beta & Volatility Analytics (Pages 12 15):
+4. Risk, Beta & Volatility Analytics (Pages 12–15):
    - Portfolio risk profile: Standard Deviation, Sharpe Ratio, Sortino Ratio, Beta, and Value at Risk (VaR).
    - Stress-testing scenario matrix (e.g., equity market drawdowns, interest rate shocks, stagflation).
-5. Itemized Holdings & Sector Allocations (Pages 16 21):
+5. Itemized Holdings & Sector Allocations (Pages 16–21):
    - Formatted multi-page tables itemizing individual holdings, ticker symbols, share quantities, cost basis, current market value, unrealized gain/loss, and dividend yields.
    - Sector and geographic exposure breakdown charts and tables.
-6. Strategic Wealth Advisory, Rebalancing & Disclosures (Pages 22 25):
+6. Strategic Wealth Advisory, Rebalancing & Disclosures (Pages 22–25):
    - Fiduciary advisory commentary: tax-loss harvesting opportunities, rebalancing roadmap, wealth preservation strategies.
    - Regulatory disclosures, fiduciary notices, methodology notes, and standard disclaimers.
 
