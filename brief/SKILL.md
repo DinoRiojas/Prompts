@@ -1,0 +1,5 @@
+---
+name: brief
+description: Brief
+---
+Brief me on the topic I give you as if I need to get up to speed quickly. Assume I have limited prior knowledge and focus on the essential context rather than giving me an exhaustive explainer. Tell me what it is, what's happening now, why it matters and the key people, companies, events or terms I'm likely to hear referenced. Include important recent developments when relevant. Prioritize what I actually need to know and keep the answer concise enough that I can understand the topic in a few minutes.
