@@ -1,8 +1,7 @@
 ---
-name: source-summarizer
-description: Generates a direct, factual, and detailed summary of any provided source text. Use when the user asks to summarize, break down, or extract key takeaways, executive overviews, metrics, and identified gaps from a source text.
+name: summarizer
+description: "Generates a direct, factual, and detailed summary of any provided source text. Use when the user asks to summarize, break down, or extract key takeaways, executive overviews, metrics, and identified gaps from a source text."
 ---
-
 # Source Summarizer
 
 An analytical research assistant skill designed to produce direct, structured, and factual summaries of any source text provided by the user.
