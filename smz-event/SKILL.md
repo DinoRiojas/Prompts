@@ -6,7 +6,7 @@ description: Generates the 3-tier email dispatch schedule for Still Mind Zendo (
 
 Generates and outputs the standard 3-tier email announcement schedule for Still Mind Zendo (SMZ) events, retreats, study periods, discussion circles, Work Practice Morning, Week Sesshin, Focusing workshops, ceremonies, and zendo closures across a rolling 2-month lookahead window starting from a user-specified reference date (defaulting strictly to today's date if unspecified).
 
-The outputs are strictly grounded in the verified master schedule from `SMZ_TIER_2026_2027_Populated.xlsx` / `SMZ_TIER_2026_2027.xlsx`, which forms the deterministic basis for all Tier 1, Tier 2, and Tier 3 dispatch dates.
+The outputs are strictly grounded in the verified master schedule from `SMZ_TIER_2026_2027_Populated.xlsx`, which forms the deterministic basis for all Tier 1, Tier 2, and Tier 3 dispatch dates.
 
 ## When to Use
 
@@ -44,7 +44,7 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
 | **02/02/2027** | Tuesday | **Ango Start** | 12/29/2026 – 01/05/2027 | 01/19/2027 | 01/28/2027 – 01/29/2027 | 6-week intensive practice period ($120 fee, members only) |
 | **02/04/2027** | Thursday | **Ango Study** | — | — | — | Weekly study covered under Ango registration |
 | **02/11/2027** | Thursday | **Ango Study** | — | — | — | Weekly study covered under Ango registration |
-| **02/12/2027 – 02/14/2027** | Fri – Sun | **Weekend Sesshin (Mariandale #2)** | 01/01/2027 | 01/15/2027 | 01/20/2027 | Residential ($300 members / $375 non-members) |
+| **02/12/2027 – 02/14/2027** | Fri – Sun | **Weekend Sesshin (Mariandale #2)** | 01/04/2027 | 01/15/2027 | 01/25/2027 | Residential ($300 members / $375 non-members) |
 | **02/18/2027** | Thursday | **Ango Study** | — | — | — | Weekly study covered under Ango registration |
 | **02/25/2027** | Thursday | **Ango Study** | — | — | — | Weekly study covered under Ango registration |
 | **03/04/2027** | Thursday | **Ango Study** | — | — | — | Weekly study covered under Ango registration |
@@ -72,9 +72,9 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - **Tier 3 (Final Week-Of Notice)**: 3 to 4 days prior. Dedicated closure notice issued right before the last regular sitting, confirming reopening date/time.
 
 2. **Weekend Sesshin (Residential at Mariandale)**:
-   - **Tier 1 (Initial Announcement & Registration Open)**: 1st day of the previous calendar month before the retreat (Oct 1 for Nov Sesshin; Jan 1 for Feb Sesshin).
-   - **Tier 2 (Mid-Cycle Reminder & Seat Check)**: 15th day of the previous calendar month before the retreat (Oct 15 for Nov Sesshin; Jan 15 for Feb Sesshin).
-   - **Tier 3 (Final Call & Payment / Registration Deadline)**: 20th day of the previous calendar month before the retreat (Oct 20 for Nov Sesshin; Jan 20 for Feb Sesshin).
+   - **Tier 1 (Initial Announcement & Registration Open)**: Scheduled across January (e.g. Oct 1 for Nov Sesshin; 01/04 for Feb Sesshin #2).
+   - **Tier 2 (Mid-Cycle Reminder & Seat Check)**: Mid-month (e.g. Oct 15 for Nov Sesshin; 01/15 for Feb Sesshin #2).
+   - **Tier 3 (Final Call & Payment / Registration Deadline)**: Late preceding month (e.g. Oct 20 for Nov Sesshin; 01/25 for Feb Sesshin #2).
 
 3. **Week Sesshin (Seven Meadows Farm Extended Residential)**:
    - **Tier 1 (Initial Announcement & Registration Opening)**: 1st day of the previous calendar month before the retreat (May 1 for June Sesshin #1 and #2).
@@ -119,15 +119,15 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - Establish the rolling 2-month (60-day) window as `[Start Date] to [Start Date + 60 days]`.
 
 2. **Query the Master Spreadsheet Calendar**:
-   - Extract all events from the Master Spreadsheet Reference Schedule whose event date falls within the 60-day window (skipping Intro to Zen and multi-day end dates).
+   - Extract all events from the Master Spreadsheet Reference Schedule whose event date falls within the 60-day window (skipping Intro to Zen and multi-day end dates). Reference `SMZ_TIER_2026_2027_Populated.xlsx` directly for full context.
 
 3. **Populate Tier Dispatch Timelines Directly from Spreadsheet Basis**:
-   - Take the pre-calculated Tier 1, Tier 2, and Tier 3 dispatch windows directly from the Master Spreadsheet Reference Schedule table above. Do not guess or re-invent dates.
+   - Take the pre-calculated Tier 1, Tier 2, and Tier 3 dispatch windows directly from the Master Spreadsheet Reference Schedule table above or `SMZ_TIER_2026_2027_Populated.xlsx`.
 
 4. **Evaluate Status Relative to Reference Start Date**:
    - Compare each Tier dispatch date/window against the reference start date:
      - **Completed**: The dispatch window has already ended prior to the reference start date.
-     - **Due / Active**: The dispatch window is currently open, encompasses today's date, or falls within the immediate 48-hour window.
+     - **Due / Active**: The dispatch window is currently open, encompasses the reference date, or falls within the immediate 48-hour window.
      - **Upcoming**: The dispatch window is in the future relative to the reference start date.
 
 5. **Format Output**:
