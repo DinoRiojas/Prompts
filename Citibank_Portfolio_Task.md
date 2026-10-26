@@ -87,7 +87,7 @@ Programmatically construct the document with the following section-by-section br
    - Regulatory disclosures, fiduciary notices, methodology notes, and standard disclaimers.
 
 Constraints & Execution Rules:
-- Source Grounding: Extract all numerical data, holdings, weights, and valuations directly from the attached notebook sources. If any data point is missing or ambiguous, explicitly state the informational gap rather than inventing figures.
+- Source Grounding: Extract all numerical data, holdings, weights, and valuations directly from the attached sources. If any data point is missing or ambiguous, explicitly state the informational gap rather than inventing figures.
 - Code Completeness: Provide 100% executable Python code without placeholders, ellipses (`...`), or truncated logic (e.g., `# add remaining pages here`). Include all necessary imports, table styles, chart generation helpers, and flowables.
 - Visual & Brand Styling: Implement an institutional Citibank-aligned palette: Primary Navy (`#003B70`), Accent Citi Blue (`#007BC8`), Soft Slate (`#5B6770`), Light Background (`#F4F6F8`), and Dark Charcoal (`#222222`). Use standard page margins (0.5 to 0.75 inches) and clean typography.
 - Pagination & Canvas Mechanics: Implement a custom two-pass `NumberedCanvas` class to dynamically calculate and render running headers and footers with page numbers formatted as `"Page X of Y"` across all pages.
