@@ -5,56 +5,56 @@ Resources:
 
 https://docs.google.com/spreadsheets/d/1x4rvOThgFhgTdpuslqsYfhSoAibVDM3BZOUHlp2RW1s/edit?gid=861982464#gid=861982464
 
-https://www.morningstar.com/etfs/xmex/voo/portfolio
-https://www.morningstar.com/etfs/xmex/voo/quote
-https://www.morningstar.com/etfs/xmex/voo/performance
-https://www.morningstar.com/etfs/xmex/voo/risk
 
-https://www.morningstar.com/etfs/xmex/vtip/portfolio
-https://www.morningstar.com/etfs/xmex/vtip/quote
-https://www.morningstar.com/etfs/xmex/vtip/performance
-https://www.morningstar.com/etfs/xmex/vtip/risk
+https://www.morningstar.com/etfs/arcx/voo/portfolio
+https://www.morningstar.com/etfs/arcx/voo/quote
+https://www.morningstar.com/etfs/arcx/voo/performance
+https://www.morningstar.com/etfs/arcx/voo/risk
+
+https://www.morningstar.com/etfs/xnas/vtip/portfolio
+https://www.morningstar.com/etfs/xnas/vtip/quote
+https://www.morningstar.com/etfs/xnas/vtip/performance
+https://www.morningstar.com/etfs/xnas/vtip/risk
 
 https://www.morningstar.com/etfs/xnas/bnd/portfolio
 https://www.morningstar.com/etfs/xnas/bnd/quote
 https://www.morningstar.com/etfs/xnas/bnd/performance
 https://www.morningstar.com/etfs/xnas/bnd/risk
 
-https://www.morningstar.com/etfs/xmex/vtv/portfolio
-https://www.morningstar.com/etfs/xmex/vtv/quote
-https://www.morningstar.com/etfs/xmex/vtv/performance
-https://www.morningstar.com/etfs/xmex/vtv/risk
+https://www.morningstar.com/etfs/arcx/vtv/portfolio
+https://www.morningstar.com/etfs/arcx/vtv/quote
+https://www.morningstar.com/etfs/arcx/vtv/performance
+https://www.morningstar.com/etfs/arcx/vtv/risk
 
-https://www.morningstar.com/etfs/xmex/vym/portfolio
-https://www.morningstar.com/etfs/xmex/vym/quote
-https://www.morningstar.com/etfs/xmex/vym/performance
-https://www.morningstar.com/etfs/xmex/vym/risk
+https://www.morningstar.com/etfs/arcx/vym/portfolio
+https://www.morningstar.com/etfs/arcx/vym/quote
+https://www.morningstar.com/etfs/arcx/vym/performance
+https://www.morningstar.com/etfs/arcx/vym/risk
 
-https://www.morningstar.com/etfs/xmex/vug/portfolio
-https://www.morningstar.com/etfs/xmex/vug/quote
-https://www.morningstar.com/etfs/xmex/vug/performance
-https://www.morningstar.com/etfs/xmex/vug/risk
+https://www.morningstar.com/etfs/arcx/vug/portfolio
+https://www.morningstar.com/etfs/arcx/vug/quote
+https://www.morningstar.com/etfs/arcx/vug/performance
+https://www.morningstar.com/etfs/arcx/vug/risk
 
-https://www.morningstar.com/etfs/xmex/vb/portfolio
-https://www.morningstar.com/etfs/xmex/vb/quote
-https://www.morningstar.com/etfs/xmex/vb/performance
-https://www.morningstar.com/etfs/xmex/vb/risk
+https://www.morningstar.com/etfs/arcx/vb/portfolio
+https://www.morningstar.com/etfs/arcx/vb/quote
+https://www.morningstar.com/etfs/arcx/vb/performance
+https://www.morningstar.com/etfs/arcx/vb/risk
 
-https://www.morningstar.com/etfs/xmex/vgt/portfolio
-https://www.morningstar.com/etfs/xmex/vgt/quote
-https://www.morningstar.com/etfs/xmex/vgt/performance
-https://www.morningstar.com/etfs/xmex/vgt/risk
+https://www.morningstar.com/etfs/arcx/vgt/portfolio
+https://www.morningstar.com/etfs/arcx/vgt/quote
+https://www.morningstar.com/etfs/arcx/vgt/performance
+https://www.morningstar.com/etfs/arcx/vgt/risk
 
-https://www.morningstar.com/etfs/xmex/vht/portfolio
-https://www.morningstar.com/etfs/xmex/vht/quote
-https://www.morningstar.com/etfs/xmex/vht/performance
-https://www.morningstar.com/etfs/xmex/vht/risk
+https://www.morningstar.com/etfs/arcx/vht/portfolio
+https://www.morningstar.com/etfs/arcx/vht/quote
+https://www.morningstar.com/etfs/arcx/vht/performance
+https://www.morningstar.com/etfs/arcx/vht/risk
 
 https://www.morningstar.com/etfs/xnas/vgit/portfolio
 https://www.morningstar.com/etfs/xnas/vgit/quote
 https://www.morningstar.com/etfs/xnas/vgit/performance
 https://www.morningstar.com/etfs/xnas/vgit/risk
-
 --------------------------------------------------------------
 Prompt:
 
