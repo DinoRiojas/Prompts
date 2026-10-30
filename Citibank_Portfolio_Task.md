@@ -3,7 +3,7 @@ Generate a Citibank Portfolio Report and save as a pdf file using the following 
 
 Resources:
 
-https://docs.google.com/spreadsheets/d/1x4rvOThgFhgTdpuslqsYfhSoAibVDM3BZOUHlp2RW1s/edit?gid=861982464#gid=861982464
+https://docs.google.com/spreadsheets/d/1t02q1p0vOVUWD9Sc7AWMzMABhNKcupcgoeIIHgJYAtA/edit?gid=861982464#gid=861982464
 
 
 https://www.morningstar.com/etfs/arcx/voo/portfolio
