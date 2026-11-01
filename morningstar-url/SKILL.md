@@ -1,10 +1,11 @@
 ---
 name: morningstar-url
-description: "Generates Morningstar.com direct HTTPS URLs for security tickers covering portfolio, quote, performance, risk, strategy, and price tabs. Outputs each HTTPS URL separately with an empty line between every URL. Use when the user asks for Morningstar links, URLs, pages, or tabs for specific ticker symbols, mutual funds, ETFs, or stocks."
+description: "Generates Morningstar.com direct HTTPS URLs for security tickers covering portfolio, quote, performance, risk, strategy, and price tabs in plain text format. Outputs each HTTPS URL separately with an empty line between every URL. Use when the user asks for Morningstar links, URLs, pages, or tabs for specific ticker symbols, mutual funds, ETFs, or stocks."
 ---
+
 # Morningstar URL Generator
 
-Generate exact HTTPS URLs for Morningstar tabs across fund and ETF tickers, listing each URL separately with a blank line between every link.
+Generate exact HTTPS URLs for Morningstar tabs across fund and ETF tickers, listing each URL separately in plain text format with a blank line between every link.
 
 ## When to Use
 
@@ -14,6 +15,7 @@ Generate exact HTTPS URLs for Morningstar tabs across fund and ETF tickers, list
 ## Tab Order
 
 Output links in this exact order:
+
 1. `portfolio`
 2. `quote`
 3. `performance`
@@ -23,15 +25,12 @@ Output links in this exact order:
 
 ## URL Structure
 
-- **Mutual Funds** (e.g., `vtsax`, `fxaix`):
-  `https://www.morningstar.com/funds/xnas/{ticker}/{tab}`
-- **ETFs** (e.g., `voo`, `spy`, `vtip`):
-  Use the appropriate exchange slug, such as:
-  `https://www.morningstar.com/etfs/arcx/{ticker}/{tab}` or `https://www.morningstar.com/etfs/xnas/{ticker}/{tab}`
+- **Mutual Funds** (e.g., `vtsax`, `fxaix`): `https://www.morningstar.com/funds/xnas/{ticker}/{tab}`
+- **ETFs** (e.g., `voo`, `spy`, `vtip`): Use the appropriate exchange slug, such as: `https://www.morningstar.com/etfs/arcx/{ticker}/{tab}` or `https://www.morningstar.com/etfs/xnas/{ticker}/{tab}`
 
 ## Output Formatting Rules
 
-- Output ONLY the raw `https://` URLs.
-- Do NOT output bullet points, labels, bold text, markdown headers, or descriptive text.
+- Output ONLY the raw `https://` URLs in unformatted plain text.
+- Do NOT use markdown links (e.g., `[text](url)`), clickable hyperlinks, bullet points, numbered lists, labels, bolding, headers, or any surrounding commentary.
 - Every single URL must be separated by an empty blank line (double newline).
 - Ticker symbols must be lowercase in the URL slug.
