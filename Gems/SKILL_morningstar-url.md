@@ -2,7 +2,6 @@
 name: morningstar-url
 description: "Generates Morningstar.com direct HTTPS URLs for security tickers covering portfolio, quote, performance, risk, strategy, and price tabs in plain text format. Outputs each HTTPS URL separately with an empty line between every URL. Use when the user asks for Morningstar links, URLs, pages, or tabs for specific ticker symbols, mutual funds, ETFs, or stocks."
 ---
-
 # Morningstar URL Generator
 
 Generate exact HTTPS URLs for Morningstar tabs across fund and ETF tickers, listing each URL separately in plain text format with a blank line between every link.
@@ -20,8 +19,7 @@ Output links in this exact order:
 2. `quote`
 3. `performance`
 4. `risk`
-5. `strategy`
-6. `price`
+5. `price`
 
 ## URL Structure
 
