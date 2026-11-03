@@ -6,8 +6,6 @@ https://www.morningstar.com/etfs/arcx/voo/performance
 
 https://www.morningstar.com/etfs/arcx/voo/risk
 
-https://www.morningstar.com/etfs/arcx/voo/strategy
-
 https://www.morningstar.com/etfs/arcx/voo/price
 
 https://www.morningstar.com/etfs/xnas/vtip/portfolio
@@ -17,8 +15,6 @@ https://www.morningstar.com/etfs/xnas/vtip/quote
 https://www.morningstar.com/etfs/xnas/vtip/performance
 
 https://www.morningstar.com/etfs/xnas/vtip/risk
-
-https://www.morningstar.com/etfs/xnas/vtip/strategy
 
 https://www.morningstar.com/etfs/xnas/vtip/price
 
@@ -30,8 +26,6 @@ https://www.morningstar.com/etfs/xnas/bnd/performance
 
 https://www.morningstar.com/etfs/xnas/bnd/risk
 
-https://www.morningstar.com/etfs/xnas/bnd/strategy
-
 https://www.morningstar.com/etfs/xnas/bnd/price
 
 https://www.morningstar.com/etfs/arcx/vym/portfolio
@@ -41,8 +35,6 @@ https://www.morningstar.com/etfs/arcx/vym/quote
 https://www.morningstar.com/etfs/arcx/vym/performance
 
 https://www.morningstar.com/etfs/arcx/vym/risk
-
-https://www.morningstar.com/etfs/arcx/vym/strategy
 
 https://www.morningstar.com/etfs/arcx/vym/price
 
@@ -54,8 +46,6 @@ https://www.morningstar.com/etfs/arcx/vug/performance
 
 https://www.morningstar.com/etfs/arcx/vug/risk
 
-https://www.morningstar.com/etfs/arcx/vug/strategy
-
 https://www.morningstar.com/etfs/arcx/vug/price
 
 https://www.morningstar.com/etfs/arcx/vtv/portfolio
@@ -65,8 +55,6 @@ https://www.morningstar.com/etfs/arcx/vtv/quote
 https://www.morningstar.com/etfs/arcx/vtv/performance
 
 https://www.morningstar.com/etfs/arcx/vtv/risk
-
-https://www.morningstar.com/etfs/arcx/vtv/strategy
 
 https://www.morningstar.com/etfs/arcx/vtv/price
 
@@ -78,8 +66,6 @@ https://www.morningstar.com/etfs/arcx/vb/performance
 
 https://www.morningstar.com/etfs/arcx/vb/risk
 
-https://www.morningstar.com/etfs/arcx/vb/strategy
-
 https://www.morningstar.com/etfs/arcx/vb/price
 
 https://www.morningstar.com/etfs/arcx/vgt/portfolio
@@ -89,8 +75,6 @@ https://www.morningstar.com/etfs/arcx/vgt/quote
 https://www.morningstar.com/etfs/arcx/vgt/performance
 
 https://www.morningstar.com/etfs/arcx/vgt/risk
-
-https://www.morningstar.com/etfs/arcx/vgt/strategy
 
 https://www.morningstar.com/etfs/arcx/vgt/price
 
@@ -102,8 +86,6 @@ https://www.morningstar.com/etfs/arcx/vht/performance
 
 https://www.morningstar.com/etfs/arcx/vht/risk
 
-https://www.morningstar.com/etfs/arcx/vht/strategy
-
 https://www.morningstar.com/etfs/arcx/vht/price
 
 https://www.morningstar.com/etfs/xnas/vgit/portfolio
@@ -113,7 +95,5 @@ https://www.morningstar.com/etfs/xnas/vgit/quote
 https://www.morningstar.com/etfs/xnas/vgit/performance
 
 https://www.morningstar.com/etfs/xnas/vgit/risk
-
-https://www.morningstar.com/etfs/xnas/vgit/strategy
 
 https://www.morningstar.com/etfs/xnas/vgit/price
