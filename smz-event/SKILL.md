@@ -37,7 +37,7 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
 | **11/26/2026 – 11/28/2026** | Thu – Sat | **Zendo Closed (Thanksgiving)** | 11/23/2026 | — | — | Holiday closure through Saturday; Tier 1 only on Monday before Thanksgiving |
 | **12/01/2026 – 12/15/2026** | Tue – Tue | **Rohatsu Practice Period** | 11/24/2026 | — | — | Two-week intensive sitting period; Tier 1 only 1 week before start |
 | **12/11/2026 – 12/12/2026** | Fri – Sat | **Winter Silence in the City (Rohatsu)** | 11/17/2026 – 11/20/2026 | 11/29/2026 – 12/01/2026 | 12/07/2026 – 12/08/2026 | Fri 6:55 PM – 9:00 PM; Sat 8:30 AM – 5:30 PM |
-| **12/15/2026** | Tuesday | **Rohatsu Sangha Celebration / End** | 11/21/2026 – 11/24/2026 | 12/03/2026 – 12/05/2026 | 12/11/2026 – 12/12/2026 | Rohatsu conclusion & sangha potluck |
+| **12/15/2026** | Tuesday | **Rohatsu Sangha Celebration / End** | - | - | - | Rohatsu conclusion & sangha potluck |
 | **12/21/2026 – 01/04/2027** | Mon – Mon | **Zendo Closed (Winter Holidays)** | 11/29/2026 – 11/30/2026 | 12/09/2026 – 12/11/2026 | 12/17/2026 – 12/18/2026 | Winter recess; reopens Jan 5, 2027 |
 | **01/14/2027** | Thursday | **Thursday Circle** | 12/21/2026 | 01/02/2027 – 01/04/2027 | 01/11/2027 – 01/12/2027 | 7:00 PM – 8:30 PM (Members only) |
 | **01/16/2027** | Saturday | **Zazenkai** | 12/23/2026 – 12/26/2026 | 01/04/2027 – 01/06/2027 | 01/12/2027 – 01/13/2027 | 8:55 AM – 5:30 PM ($25 members / $50 non-members) |
@@ -62,7 +62,7 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
 | **06/20/2027 – 06/26/2027** | Sun – Sat | **Week Sesshin (Seven Meadows Farm #2)** | 05/01/2027 | 05/15/2027 | 05/20/2027 | Residential ($550, members only) |
 | **07/03/2027 – 07/05/2027** | Sat – Mon | **Zendo Closed (July 4th Weekend)** | 06/11/2027 – 06/12/2027 | 06/21/2027 – 06/23/2027 | 06/29/2027 – 06/30/2027 | Holiday closure through Monday |
 
-*(Note: All Intro to Zen events, weekly Ango Study sessions, and multi-day end rows are marked as `—` because they do not have separate automated email tier dispatches).*
+*(Note: All Intro to Zen events, weekly Ango Study sessions, multi-day end rows, and Rohatsu Sangha Celebration / End are marked as `-` because they do not have separate automated email tier dispatches).*
 
 ## The 3-Tier Dispatch Patterns
 
@@ -97,10 +97,11 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - **Tier 2 (Mid-Cycle Call for Volunteers)**: 10 to 12 days prior. Details schedule (morning work block followed by informal sangha lunch) and confirms coordinator contacts.
    - **Tier 3 (Week-Of Logistics & RSVP Confirmation)**: 3 to 4 days prior. Final confirmation of arrival instructions, lunch headcount, and weather-dependent plans.
 
-7. **Ceremonies & Meetings (Annual Sangha Meeting, Jukai, Rohatsu Celebration)**:
+7. **Ceremonies & Meetings (Annual Sangha Meeting, Jukai)**:
    - **Tier 1 (Event Announcement & Agenda/Theme)**: 21 to 24 days prior (~3 weeks out). Formal notification of event date, purpose, agenda/precepts context, and attendance protocol.
    - **Tier 2 (Mid-Cycle Reminder & Participation Details)**: 10 to 12 days prior. Confirms schedule, coordinator points of contact, and RSVP/potluck coordination.
    - **Tier 3 (Final Week-Of Notice)**: 3 to 4 days prior. Logistics, in-person arrival time, and Zoom link (for hybrid meetings).
+   - **Rohatsu Sangha Celebration / End Exception**: Marked as `-` across Tier 1, Tier 2, and Tier 3 (no separate tier dispatches).
 
 8. **Thursday Night Circle**:
    - **Tier 1 (Initial Topic & Prompt Announcement)**: 24 days prior (~3.5 weeks out, typically Monday). Shares topic, reflection questions, leaders, and format.
@@ -112,8 +113,9 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - **Tier 2 (Mid-Cycle / Commitment Reminder)**: 2 weeks prior (~14 days before start). Encourages enrollment and outlines preparatory readings.
    - **Tier 3 (Final Call / Roster Finalization)**: 4 to 5 days prior to Opening Ceremony. Distributes initial readings and study zoom credentials to registered participants.
 
-10. **Rohatsu Practice Period**:
+10. **Rohatsu Practice Period & Celebration**:
     - **Tier 1 Only**: Announcement goes out as **Tier 1 only** exactly the week before the practice period begins (11/24/2026); no Tier 2 or Tier 3 dispatches.
+    - **Rohatsu Sangha Celebration / End**: Tier 1, Tier 2, and Tier 3 are marked as `-` (no separate email tier dispatches; celebration takes place on the final day of Rohatsu).
 
 ## Step-by-Step Execution Procedure
 
