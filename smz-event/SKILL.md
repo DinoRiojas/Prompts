@@ -6,7 +6,7 @@ description: Generates the 3-tier email dispatch schedule for Still Mind Zendo (
 
 Generates and outputs the standard 3-tier email announcement schedule for Still Mind Zendo (SMZ) events, retreats, study periods, discussion circles, Work Practice Morning, Week Sesshin, Focusing workshops, ceremonies, and zendo closures across a rolling 2-month lookahead window starting from a user-specified reference date (defaulting strictly to today's date if unspecified).
 
-The outputs are strictly grounded in the verified master schedule from `SMZ_TIER_2026_2027_Populated.xlsx`, which forms the deterministic basis for all Tier 1, Tier 2, and Tier 3 dispatch dates.
+The outputs are strictly grounded in the verified master schedule from `SMZ_TIER_2026_2027_Populated.xlsx`, which forms the deterministic basis for all Tier 1, Tier 2, and Tier 3 dispatch dates, incorporating specific schedule policies (such as single-tier dispatches for Thanksgiving closure and Rohatsu practice period).
 
 ## When to Use
 
@@ -34,8 +34,8 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
 | **10/31/2026** | Saturday | **Work Practice Morning** | 10/07/2026 – 10/10/2026 | 10/19/2026 – 10/21/2026 | 10/27/2026 – 10/28/2026 | Samu & community lunch (Date 1 of 2) |
 | **11/05/2026** | Thursday | **Thursday Circle** | 10/12/2026 | 10/24/2026 – 10/26/2026 | 11/02/2026 – 11/03/2026 | 7:00 PM – 8:30 PM (Members only) |
 | **11/13/2026 – 11/15/2026** | Fri – Sun | **Weekend Sesshin (Mariandale #1)** | 10/01/2026 | 10/15/2026 | 10/20/2026 | Residential ($300 members / $375 non-members) |
-| **11/26/2026 – 11/28/2026** | Thu – Sat | **Zendo Closed (Thanksgiving)** | 11/04/2026 – 11/05/2026 | 11/14/2026 – 11/16/2026 | 11/22/2026 – 11/23/2026 | Holiday closure through Saturday |
-| **12/01/2026 – 12/15/2026** | Tue – Tue | **Rohatsu Practice Period** | 11/07/2026 – 11/10/2026 | 11/19/2026 – 11/21/2026 | 11/26/2026 – 11/27/2026 | Two-week intensive sitting period |
+| **11/26/2026 – 11/28/2026** | Thu – Sat | **Zendo Closed (Thanksgiving)** | 11/23/2026 | — | — | Holiday closure through Saturday; Tier 1 only on Monday before Thanksgiving |
+| **12/01/2026 – 12/15/2026** | Tue – Tue | **Rohatsu Practice Period** | 11/24/2026 | — | — | Two-week intensive sitting period; Tier 1 only 1 week before start |
 | **12/11/2026 – 12/12/2026** | Fri – Sat | **Winter Silence in the City (Rohatsu)** | 11/17/2026 – 11/20/2026 | 11/29/2026 – 12/01/2026 | 12/07/2026 – 12/08/2026 | Fri 6:55 PM – 9:00 PM; Sat 8:30 AM – 5:30 PM |
 | **12/15/2026** | Tuesday | **Rohatsu Sangha Celebration / End** | 11/21/2026 – 11/24/2026 | 12/03/2026 – 12/05/2026 | 12/11/2026 – 12/12/2026 | Rohatsu conclusion & sangha potluck |
 | **12/21/2026 – 01/04/2027** | Mon – Mon | **Zendo Closed (Winter Holidays)** | 11/29/2026 – 11/30/2026 | 12/09/2026 – 12/11/2026 | 12/17/2026 – 12/18/2026 | Winter recess; reopens Jan 5, 2027 |
@@ -70,6 +70,7 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - **Tier 1 (Advance Notice)**: 21 to 22 days prior (~3 weeks out). Advance notice in weekly sangha communications detailing affected sittings.
    - **Tier 2 (Mid-Cycle Reminder)**: 10 to 12 days prior (~1.5 weeks out). Reinforces specific canceled sitting dates and clarifies last sitting prior to closure.
    - **Tier 3 (Final Week-Of Notice)**: 3 to 4 days prior. Dedicated closure notice issued right before the last regular sitting, confirming reopening date/time.
+   - **Thanksgiving Closure Exception**: Announcement goes out as **Tier 1 only** on the Monday immediately preceding Thanksgiving (11/23/2026); no Tier 2 or Tier 3 dispatches.
 
 2. **Weekend Sesshin (Residential at Mariandale)**:
    - **Tier 1 (Initial Announcement & Registration Open)**: Scheduled across January (e.g. Oct 1 for Nov Sesshin; 01/04 for Feb Sesshin #2).
@@ -110,6 +111,9 @@ Below is the verified master dispatch schedule constructed in `SMZ_TIER_2026_202
    - **Tier 1 (Program Announcement & Registration Open)**: 4 to 5 weeks prior to Ango start (early January). Explains theme, syllabus, weekly Thursday schedule, fee ($120), and registration link.
    - **Tier 2 (Mid-Cycle / Commitment Reminder)**: 2 weeks prior (~14 days before start). Encourages enrollment and outlines preparatory readings.
    - **Tier 3 (Final Call / Roster Finalization)**: 4 to 5 days prior to Opening Ceremony. Distributes initial readings and study zoom credentials to registered participants.
+
+10. **Rohatsu Practice Period**:
+    - **Tier 1 Only**: Announcement goes out as **Tier 1 only** exactly the week before the practice period begins (11/24/2026); no Tier 2 or Tier 3 dispatches.
 
 ## Step-by-Step Execution Procedure
 
